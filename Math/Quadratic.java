@@ -14,19 +14,19 @@ public class Quadratic
 	 */
 	public static void main(String[] args)
 	{
-		int a, b, c;  // ax^2 + bx + c
+		double a, b, c;  // ax^2 + bx + c
 		double discriminant, root1, root2;
 
 		Scanner scan = new Scanner(System.in);
 
 		System.out.print("Enter the coefficient of x squared: ");
-		a = scan.nextInt();
+		a = scan.nextDouble();
 
 		System.out.print("Enter the coefficient of x: ");
-		b = scan.nextInt();
+		b = scan.nextDouble();
 
 		System.out.print("Enter the constant: ");
-		c = scan.nextInt();
+		c = scan.nextDouble();
 
 		// Use the quadratic formula to compute the roots.
 		// Assumes a positive discriminant. (otherwise we need complex numbers)

@@ -1,0 +1,15 @@
+Modify the program to support reading double values from the user by replacing the nextInt() methods calls with nextDouble()
+Result: When I modify the program to read double values there was an error because I did not change the int   
+at the beginning of the main method.
+Root #1: -0.19211344706804567
+Root #2: -7.80788655293195
+
+Modify the program by casting the value returned by nextDouble() to an int as shown below. Run the program with the values 2.5, 16.8, 3.2 for a, b and c respectively.  
+Result: The build failed. I don't know if I was doing something wrong or not.  
+However, I've done exactly what is explained.
+
+Remove the cast and change the declaration for a, b and c from int to double as shown below. Run the program with the values 2.5, 16.8, 3.2 for a, b and c respectively.  
+Result: The build succeeded. After changing the declaration for the variables to double values  
+the program succeeded and did not have any errors this time because of that.
+Root #1: -0.19620481067436976
+Root #2: -6.5237951893256305

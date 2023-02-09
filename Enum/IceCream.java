@@ -22,7 +22,7 @@ public class IceCream
 	 * Creates and uses variables of the Flavor type.
 	 */
 	public static void main(String[] args) {
-
+		
 		Flavor cone1, cone2, cone3;
 
 		cone1 = Flavor.HUCKLEBERRY;
@@ -43,5 +43,9 @@ public class IceCream
 		System.out.println("cone3 value: " + cone3);
 		System.out.println("cone3 ordinal: " + cone3.ordinal());
 		System.out.println("cone3 name: " + cone3.name());
-	}
+		
+		boolean result = Flavor.HUCKLEBERRY.ordinal() > Flavor.CHOCOLATE.ordinal();
+        System.out.printf("\n\n%s is greater than %s: %b\n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result);  
+		
+	}   
 }

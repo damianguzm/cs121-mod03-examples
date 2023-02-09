@@ -1,0 +1,12 @@
+Add the following code near the end of the main() method.  
+Result: The numbers outputted had another decimal place  
+because of the %.4f and %.3f.
+
+Modify the DecimalFormat object to use the pattern "$0.000" as shown below. Compare the output against the original "$0.###" pattern  
+Result: When the pounds were changed to zeros it set 3 decimal  
+places for the numbers adding a 0 to the .06.
+
+Modify the DecimalFormat object to use the pattern "$00000.000000"  
+Result: Modifying the DecimalFormat added zero place holders before and after  
+the number.
+

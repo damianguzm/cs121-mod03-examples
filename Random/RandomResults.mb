@@ -1,0 +1,13 @@
+Modify the program to instantiate the Random object using a seed value as shown below
+Result: When I ran the program 3 times after modifying it  
+the same numbers were generated. This is because we instantiated a pattern for the program  
+to choose the same numbers everytime. 
+Test 1, 2, 3- 
+A random integer: 1553932502
+From 0 to 9: 0
+From 1 to 10: 2
+From 20 to 34: 23
+From -10 to 9: 5
+A random float (between 0 and 1): 0.03767297158354166
+From 1 to 6: 1
+

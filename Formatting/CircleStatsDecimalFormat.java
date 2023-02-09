@@ -30,7 +30,9 @@ public class CircleStatsDecimalFormat
 
 		System.out.println("The circle's area: " + fmt.format(area));
 		System.out.println("The circle's circumference: " + fmt.format(circumference));
-
+		
+		System.out.printf("The circle's area using printf(): %.4f\n", area);
+		System.out.printf("The circle's circumference using printf(): %10.3f\n", circumference);
 		scan.close();
 	}
 }

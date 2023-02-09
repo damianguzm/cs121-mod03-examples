@@ -1,0 +1,8 @@
+Add the following code to the end of the main() method.  
+Result: A true or false statement was outputted because of the boolean result data type  
+that was used to creat the inequality.
+
+Modify the printf statement to use '%n' in place of '\n' as shown below. 
+Result: When I ran the program there was no difference in the strings outputted.  
+So I would say they are the same.
+

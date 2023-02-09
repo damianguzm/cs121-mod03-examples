@@ -9,7 +9,7 @@ public class BasicDecimalFormat
 {
 	public static void main(String[] args)
 	{
-		DecimalFormat fmt = new DecimalFormat("$0.###");
+		DecimalFormat fmt = new DecimalFormat("$00000.000000");
 		double amount = 110.3424;
 		System.out.println("Amount: " + fmt.format(amount));
 

@@ -3,7 +3,8 @@ public class StringFun {
 
         String phrase = "Hello World";
 
-        int space = phrase.indexOf(' ');
+        int space = phrase.indexOf('j');
+        System.out.println("Character index is: " + space);
 
         String secondWord = phrase.substring(space+1);
         System.out.println("The second word is: " + secondWord);

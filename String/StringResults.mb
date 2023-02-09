@@ -1,0 +1,8 @@
+Experiment with different values of the index character. Add a print statement to the index of the character in the console.  
+Result: When I entered a different number is concluded that the character index  
+was at -1.
+
+Change the index character to one that doesn't exist in the phrase.  
+Result: The same thing happens as if I were to enter a random number,   
+-1 is concluded as the character index.
+

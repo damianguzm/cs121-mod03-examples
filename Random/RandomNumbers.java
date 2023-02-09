@@ -14,7 +14,7 @@ public class RandomNumbers
 	{
 		// Try it with a seed:  new Random(12345);
 		Random generator; // Declare Random variable
-		generator = new Random(); // instantiate Random object
+		generator = new Random(12345); // instantiate Random object
 		int num1;
 		double num2;
 
